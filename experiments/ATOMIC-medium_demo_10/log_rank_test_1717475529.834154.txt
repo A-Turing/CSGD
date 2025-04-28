@@ -1,0 +1,12 @@
+============ Initialized logger ============
+add_traspose_rels: False
+dataset: ATOMIC-medium
+enclosing_sub_graph: True
+experiment_name: ATOMIC-medium_demo_10
+file_paths: {'graph': 'data\\ATOMIC-medium\\train.txt', 'links': 'data\\ATOMIC-medium\\test.txt'}
+final_model: False
+hop: 2
+mode: sample
+model_path: experiments\ATOMIC-medium_demo_10\best_graph_classifier.pth
+============================================
+test metrics. MRR: 0.0879, H@1: 0.0190, H@3: 0.0575, H@10: 0.1952

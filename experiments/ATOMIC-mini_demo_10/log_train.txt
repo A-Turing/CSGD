@@ -1,0 +1,460 @@
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 128, # Relations : 9, # Augmented relations : 9
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 4992.6660232543945, training auc_roc: 0.5109, training auc_pr: 0.1199, best validation AUC: 0.4989
+Epoch 2 with loss: 4665.682008743286, training auc_roc: 0.5717, training auc_pr: 0.1413, best validation AUC: 0.4989
+Epoch 3 with loss: 3754.8954467773438, training auc_roc: 0.6204, training auc_pr: 0.1752, best validation AUC: 0.4989
+Better models found w.r.t validation performance. Saved it!
+Epoch 4 with loss: 3172.183418273926, training auc_roc: 0.6364, training auc_pr: 0.1972, best validation AUC: 0.5031
+Better models found w.r.t validation performance. Saved it!
+Epoch 5 with loss: 2394.1578578948975, training auc_roc: 0.6601, training auc_pr: 0.1915, best validation AUC: 0.5072
+Epoch 6 with loss: 1578.9489269256592, training auc_roc: 0.6858, training auc_pr: 0.2084, best validation AUC: 0.5072
+Epoch 7 with loss: 1290.516173839569, training auc_roc: 0.6916, training auc_pr: 0.2168, best validation AUC: 0.5072
+Epoch 8 with loss: 1070.391900062561, training auc_roc: 0.6996, training auc_pr: 0.2211, best validation AUC: 0.5072
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 64, # Relations : 9, # Augmented relations : 9
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 4995.054500579834, training auc_roc: 0.5053, training auc_pr: 0.1136, best validation AUC: 0.4961
+Epoch 2 with loss: 4845.358589172363, training auc_roc: 0.5624, training auc_pr: 0.1364, best validation AUC: 0.4961
+Epoch 3 with loss: 4254.102874755859, training auc_roc: 0.5911, training auc_pr: 0.1519, best validation AUC: 0.4961
+Epoch 4 with loss: 3277.59299659729, training auc_roc: 0.6255, training auc_pr: 0.1721, best validation AUC: 0.4961
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 32, # Relations : 9, # Augmented relations : 9
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 4993.742523193359, training auc_roc: 0.5106, training auc_pr: 0.1133, best validation AUC: 0.4801
+Epoch 2 with loss: 4893.391273498535, training auc_roc: 0.5498, training auc_pr: 0.1301, best validation AUC: 0.4801
+Epoch 3 with loss: 4234.236289978027, training auc_roc: 0.5842, training auc_pr: 0.141, best validation AUC: 0.4801
+Epoch 4 with loss: 3768.4840087890625, training auc_roc: 0.5864, training auc_pr: 0.1502, best validation AUC: 0.4801
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 64, # Relations : 9, # Augmented relations : 9
+Starting training with full batch...
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: ATOMIC-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\ATOMIC-mini_demo_10
+experiment_name: ATOMIC-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================

@@ -1,0 +1,12 @@
+============ Initialized logger ============
+add_traspose_rels: False
+dataset: CN-100K
+enclosing_sub_graph: True
+experiment_name: CN-100K_demo_10
+file_paths: {'graph': 'data\\CN-100K\\train.txt', 'links': 'data\\CN-100K\\test.txt'}
+final_model: False
+hop: 2
+mode: sample
+model_path: experiments\CN-100K_demo_10\best_graph_classifier.pth
+============================================
+test metrics. MRR: 0.2502, H@1: 0.1158, H@3: 0.2696, H@10: 0.5658

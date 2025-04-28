@@ -1,0 +1,63 @@
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-100K
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils/../experiments/CN-100K_demo_10
+experiment_name: CN-100K_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils/..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 128, # Relations : 34, # Augmented relations : 34
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 66838.76742553711, training auc_roc: 0.6271, training auc_pr: 0.1856, best validation AUC: 0.8204
+Better models found w.r.t validation performance. Saved it!
+Epoch 2 with loss: 48968.28474330902, training auc_roc: 0.6989, training auc_pr: 0.2814, best validation AUC: 0.8302
+Better models found w.r.t validation performance. Saved it!
+Epoch 3 with loss: 42550.370646476746, training auc_roc: 0.7123, training auc_pr: 0.2991, best validation AUC: 0.8483
+Epoch 4 with loss: 38563.39914369583, training auc_roc: 0.7202, training auc_pr: 0.3204, best validation AUC: 0.8483
+Better models found w.r.t validation performance. Saved it!
+Epoch 5 with loss: 37929.41296195984, training auc_roc: 0.7253, training auc_pr: 0.3293, best validation AUC: 0.8532
+Epoch 6 with loss: 36973.13834190369, training auc_roc: 0.7279, training auc_pr: 0.3381, best validation AUC: 0.8532
+Epoch 7 with loss: 35663.21739816666, training auc_roc: 0.7336, training auc_pr: 0.3423, best validation AUC: 0.8532
+Epoch 8 with loss: 34356.382813453674, training auc_roc: 0.7368, training auc_pr: 0.3547, best validation AUC: 0.8532

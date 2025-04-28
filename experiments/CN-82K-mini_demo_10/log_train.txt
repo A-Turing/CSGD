@@ -1,0 +1,1515 @@
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 30, # Relations : 23, # Augmented relations : 23
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 5000.162490844727, training auc_roc: 0.4995, training auc_pr: 0.1124, best validation AUC: 0.4913
+Epoch 2 with loss: 4970.710556030273, training auc_roc: 0.5293, training auc_pr: 0.1189, best validation AUC: 0.4913
+Better models found w.r.t validation performance. Saved it!
+Epoch 3 with loss: 4870.412307739258, training auc_roc: 0.5513, training auc_pr: 0.1279, best validation AUC: 0.4923
+Better models found w.r.t validation performance. Saved it!
+Epoch 4 with loss: 4309.900066375732, training auc_roc: 0.5659, training auc_pr: 0.141, best validation AUC: 0.4974
+Epoch 5 with loss: 3917.9239921569824, training auc_roc: 0.5747, training auc_pr: 0.14, best validation AUC: 0.4974
+Epoch 6 with loss: 3319.4682846069336, training auc_roc: 0.5987, training auc_pr: 0.1531, best validation AUC: 0.4974
+Epoch 7 with loss: 3096.079402923584, training auc_roc: 0.6114, training auc_pr: 0.165, best validation AUC: 0.4974
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 62, # Relations : 23, # Augmented relations : 23
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 5002.527011871338, training auc_roc: 0.4948, training auc_pr: 0.1118, best validation AUC: 0.5048
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 64, # Relations : 27, # Augmented relations : 27
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 10002.279243469238, training auc_roc: 0.4959, training auc_pr: 0.1096, best validation AUC: 0.5001
+Epoch 2 with loss: 9925.24478149414, training auc_roc: 0.5286, training auc_pr: 0.1227, best validation AUC: 0.5001
+Better models found w.r.t validation performance. Saved it!
+Epoch 3 with loss: 9092.0873336792, training auc_roc: 0.5462, training auc_pr: 0.1324, best validation AUC: 0.5025
+Epoch 4 with loss: 8098.274856567383, training auc_roc: 0.572, training auc_pr: 0.15, best validation AUC: 0.5025
+Epoch 5 with loss: 6605.494617462158, training auc_roc: 0.614, training auc_pr: 0.1698, best validation AUC: 0.5025
+Epoch 6 with loss: 5645.061950683594, training auc_roc: 0.6361, training auc_pr: 0.1853, best validation AUC: 0.5025
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 64, # Relations : 27, # Augmented relations : 27
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 10002.940856933594, training auc_roc: 0.4975, training auc_pr: 0.112, best validation AUC: 0.5081
+Epoch 2 with loss: 9892.611755371094, training auc_roc: 0.5249, training auc_pr: 0.1213, best validation AUC: 0.5081
+Better models found w.r.t validation performance. Saved it!
+Epoch 3 with loss: 8728.011520385742, training auc_roc: 0.5592, training auc_pr: 0.1344, best validation AUC: 0.5111
+Better models found w.r.t validation performance. Saved it!
+Epoch 4 with loss: 7607.994491577148, training auc_roc: 0.5776, training auc_pr: 0.1504, best validation AUC: 0.5135
+Epoch 5 with loss: 6487.696502685547, training auc_roc: 0.6005, training auc_pr: 0.1581, best validation AUC: 0.5135
+Better models found w.r.t validation performance. Saved it!
+Epoch 6 with loss: 5582.684539794922, training auc_roc: 0.6325, training auc_pr: 0.175, best validation AUC: 0.5138
+Better models found w.r.t validation performance. Saved it!
+Epoch 7 with loss: 4702.950134277344, training auc_roc: 0.6472, training auc_pr: 0.1835, best validation AUC: 0.5157
+Epoch 8 with loss: 3749.6075477600098, training auc_roc: 0.6732, training auc_pr: 0.2021, best validation AUC: 0.5157
+Epoch 9 with loss: 3320.1058626174927, training auc_roc: 0.6851, training auc_pr: 0.2195, best validation AUC: 0.5157
+Epoch 10 with loss: 2536.2380905151367, training auc_roc: 0.6903, training auc_pr: 0.2076, best validation AUC: 0.5157
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 128, # Relations : 27, # Augmented relations : 27
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 10046.222053527832, training auc_roc: 0.4723, training auc_pr: 0.1036, best validation AUC: 0.5011
+Epoch 2 with loss: 10022.00944519043, training auc_roc: 0.486, training auc_pr: 0.1081, best validation AUC: 0.5011
+Better models found w.r.t validation performance. Saved it!
+Epoch 3 with loss: 9920.703079223633, training auc_roc: 0.5226, training auc_pr: 0.1185, best validation AUC: 0.51
+Epoch 4 with loss: 9684.393684387207, training auc_roc: 0.5339, training auc_pr: 0.1282, best validation AUC: 0.51
+Epoch 5 with loss: 8738.118202209473, training auc_roc: 0.5717, training auc_pr: 0.1441, best validation AUC: 0.51
+Epoch 6 with loss: 7879.2689781188965, training auc_roc: 0.61, training auc_pr: 0.1845, best validation AUC: 0.51
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 128, # Relations : 27, # Augmented relations : 27
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 10119.896362304688, training auc_roc: 0.491, training auc_pr: 0.1079, best validation AUC: 0.504
+Better models found w.r.t validation performance. Saved it!
+Epoch 2 with loss: 9793.940818786621, training auc_roc: 0.5188, training auc_pr: 0.118, best validation AUC: 0.5434
+Better models found w.r.t validation performance. Saved it!
+Epoch 3 with loss: 9670.803085327148, training auc_roc: 0.5262, training auc_pr: 0.1251, best validation AUC: 0.5556
+Epoch 4 with loss: 9674.099647521973, training auc_roc: 0.5246, training auc_pr: 0.1192, best validation AUC: 0.5556
+Better models found w.r.t validation performance. Saved it!
+Epoch 5 with loss: 9203.168922424316, training auc_roc: 0.5343, training auc_pr: 0.12, best validation AUC: 0.5606
+Better models found w.r.t validation performance. Saved it!
+Epoch 6 with loss: 8036.188789367676, training auc_roc: 0.5542, training auc_pr: 0.1291, best validation AUC: 0.5783
+Better models found w.r.t validation performance. Saved it!
+Epoch 7 with loss: 7636.379325866699, training auc_roc: 0.5707, training auc_pr: 0.1375, best validation AUC: 0.5892
+Epoch 8 with loss: 7364.2375411987305, training auc_roc: 0.5654, training auc_pr: 0.1336, best validation AUC: 0.5892
+Better models found w.r.t validation performance. Saved it!
+Epoch 9 with loss: 7366.875640869141, training auc_roc: 0.5571, training auc_pr: 0.1292, best validation AUC: 0.6015
+Epoch 10 with loss: 7069.061855316162, training auc_roc: 0.5751, training auc_pr: 0.1316, best validation AUC: 0.6015
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+============ Initialized logger ============
+add_ht_emb: True
+add_traspose_rels: False
+attn_rel_emb_dim: 32
+batch_size: 16
+clip: 1000
+constrained_neg_prob: 0.0
+critic: 0
+dataset: CN-82K-mini
+disable_cuda: False
+dropout: 0
+early_stop: 3
+edge_dropout: 0.5
+emb_dim: 32
+enclosing_sub_graph: True
+epoch: 0
+eval_every: 3
+eval_every_iter: 150
+exp_dir: utils\..\experiments\CN-82K-mini_demo_10
+experiment_name: CN-82K-mini_demo_10
+gnn_agg_type: sum
+gpu: 0
+has_attn: False
+hop: 2
+l2: 0.01
+load_model: False
+loss: 0
+lr: 0.005
+main_dir: utils\..
+margin: 10.0
+max_links: 1000000
+max_nodes_per_hop: None
+model_type: dgl
+no_jk: True
+num_bases: 4
+num_epochs: 10
+num_gcn_layers: 2
+num_neg_samples_per_link: 8
+num_workers: 0
+optimizer: AdamW
+rel_emb_dim: 32
+save_every: 3
+seed: 41504
+six_mode: False
+train_file: train
+valid_file: valid
+============================================
+No existing model found. Initializing new model..
+Device: cuda:0
+Input dim : 128, # Relations : 27, # Augmented relations : 27
+Starting training with full batch...
+Better models found w.r.t validation performance. Saved it!
+Epoch 1 with loss: 10119.896423339844, training auc_roc: 0.491, training auc_pr: 0.1079, best validation AUC: 0.504
+Better models found w.r.t validation performance. Saved it!
+Epoch 2 with loss: 9793.940742492676, training auc_roc: 0.5188, training auc_pr: 0.118, best validation AUC: 0.5434
+Better models found w.r.t validation performance. Saved it!
+Epoch 3 with loss: 9670.802989959717, training auc_roc: 0.5262, training auc_pr: 0.1251, best validation AUC: 0.5556
+Epoch 4 with loss: 9674.099792480469, training auc_roc: 0.5246, training auc_pr: 0.1192, best validation AUC: 0.5556
+Better models found w.r.t validation performance. Saved it!
+Epoch 5 with loss: 9203.16870880127, training auc_roc: 0.5343, training auc_pr: 0.12, best validation AUC: 0.5606
+Better models found w.r.t validation performance. Saved it!
+Epoch 6 with loss: 8036.188629150391, training auc_roc: 0.5542, training auc_pr: 0.1291, best validation AUC: 0.5783
+Better models found w.r.t validation performance. Saved it!
+Epoch 7 with loss: 7636.379379272461, training auc_roc: 0.5707, training auc_pr: 0.1375, best validation AUC: 0.5892
+Epoch 8 with loss: 7364.2373046875, training auc_roc: 0.5654, training auc_pr: 0.1336, best validation AUC: 0.5892
+Better models found w.r.t validation performance. Saved it!
+Epoch 9 with loss: 7366.875839233398, training auc_roc: 0.5571, training auc_pr: 0.1292, best validation AUC: 0.6015
+Epoch 10 with loss: 7069.062129974365, training auc_roc: 0.5751, training auc_pr: 0.1316, best validation AUC: 0.6015
