@@ -1,7 +1,10 @@
 # Topology-Aware Correlations Between Relations for Inductive Link Prediction in Knowledge Graphs
 
 This repository contains the code and the datasets of **Topology-Aware Correlations Between Relations for Inductive Link Prediction in Knowledge Graphs**. Jiajun Chen, Huarui He, Feng Wu, Jie Wang. AAAI 2021. [[arXiv](https://arxiv.org/pdf/2103.03642.pdf)]
-
+## Dataset
+The dataset used in the experiment can be obtained from here https://github.com/BinWang28/InductivE
+## Other dependent files
+Other dependent files (files too large, too many file items) can be obtained here https://pan.quark.cn/s/1d6e7fc1c46f
 ## Dependencies
 The code is based on Python 3.7. You can use the following command to create a environment and enter it.
 ```shell script
